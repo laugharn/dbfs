@@ -2,6 +2,7 @@
     "name": "laugharn/dfbs",
     "description": "Extends illuminate/filesystem to support Dropbox.",
     "require": {
+        "php": ">=5.5.9",
         "league/flysystem-dropbox": "^1.0"
     },
     "authors": [
@@ -10,5 +11,9 @@
             "email": "laugharn@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "autoload": {
+        "psr-4": {
+            "Laugharn\\DropboxFilesystem\\": "src/"
+        }
+    }
 }
