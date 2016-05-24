@@ -1,0 +1,14 @@
+{
+    "name": "laugharn/dfbs",
+    "description": "Extends illuminate/filesystem to support Dropbox.",
+    "require": {
+        "league/flysystem-dropbox": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Dan Laugharn",
+            "email": "laugharn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
