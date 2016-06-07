@@ -1,5 +1,5 @@
 {
-    "name": "laugharn/dfbs",
+    "name": "laugharn/dbfs",
     "description": "Extends illuminate/filesystem to support Dropbox.",
     "require": {
         "php": ">=5.5.9",
